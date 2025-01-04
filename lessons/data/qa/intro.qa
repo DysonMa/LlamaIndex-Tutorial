@@ -1,0 +1,8 @@
+Q1: What is LlamaIndex?
+A1: LlamaIndex, also known as the "GPT Index," is a data framework built to connect Large Language Models (LLMs) like OpenAI's GPT models with a range of data sources. It allows users to load data, index it, and query it using natural language, creating a more efficient and structured interaction with large datasets. This tool simplifies integrating and managing LLMs for specific data requirements, such as building custom knowledge bases or answering questions over structured or unstructured data.
+---
+Q2: What is data loader?
+A2: A data loader is a component that reads data from different sources and prepares it for processing, typically in batch format. Data loaders are essential for machine learning workflows, as they help standardize data retrieval and preprocessing, allowing models to train or infer efficiently. In the context of LLMs and frameworks like LlamaIndex, data loaders help fetch documents, databases, or other inputs needed to generate responses based on the specific datasets available.
+---
+Q3: How to customize it?
+A3: Customizing a data loader involves adapting it to different data sources or formats. For LlamaIndex, customization can include writing custom scripts to handle specific file types, creating preprocessors to clean and filter data, or integrating APIs to pull in real-time data. This way, users can align the data loader with the unique requirements of their application, ensuring the data loaded is both relevant and in the right format for further indexing or querying.
